@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C03D823D293B33E300E7E8C3 /* FMDB in Frameworks */ = {isa = PBXBuildFile; productRef = C03D823C293B33E300E7E8C3 /* FMDB */; };
+		C0E050DC2937853E0004FBC8 /* GettingStartedFMDBwithSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E050DB2937853E0004FBC8 /* GettingStartedFMDBwithSwiftApp.swift */; };
+		C0E050ED293785400004FBC8 /* GettingStartedFMDBwithSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E050EC293785400004FBC8 /* GettingStartedFMDBwithSwiftTests.swift */; };
+		C0E05107293787540004FBC8 /* FMDB in Frameworks */ = {isa = PBXBuildFile; productRef = C0E05106293787540004FBC8 /* FMDB */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0E050E9293785400004FBC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0E050D02937853E0004FBC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0E050D72937853E0004FBC8;
+			remoteInfo = GettingStartedFMDBwithSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C0E050D82937853E0004FBC8 /* GettingStartedFMDBwithSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GettingStartedFMDBwithSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0E050DB2937853E0004FBC8 /* GettingStartedFMDBwithSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingStartedFMDBwithSwiftApp.swift; sourceTree = "<group>"; };
+		C0E050E8293785400004FBC8 /* GettingStartedFMDBwithSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GettingStartedFMDBwithSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0E050EC293785400004FBC8 /* GettingStartedFMDBwithSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingStartedFMDBwithSwiftTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0E050D52937853E0004FBC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0E05107293787540004FBC8 /* FMDB in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0E050E5293785400004FBC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C03D823D293B33E300E7E8C3 /* FMDB in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0E050CF2937853E0004FBC8 = {
+			isa = PBXGroup;
+			children = (
+				C0E050DA2937853E0004FBC8 /* GettingStartedFMDBwithSwift */,
+				C0E050EB293785400004FBC8 /* GettingStartedFMDBwithSwiftTests */,
+				C0E050D92937853E0004FBC8 /* Products */,
+				C0E05108293788700004FBC8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C0E050D92937853E0004FBC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0E050D82937853E0004FBC8 /* GettingStartedFMDBwithSwift.app */,
+				C0E050E8293785400004FBC8 /* GettingStartedFMDBwithSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0E050DA2937853E0004FBC8 /* GettingStartedFMDBwithSwift */ = {
+			isa = PBXGroup;
+			children = (
+				C0E050DB2937853E0004FBC8 /* GettingStartedFMDBwithSwiftApp.swift */,
+			);
+			path = GettingStartedFMDBwithSwift;
+			sourceTree = "<group>";
+		};
+		C0E050EB293785400004FBC8 /* GettingStartedFMDBwithSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0E050EC293785400004FBC8 /* GettingStartedFMDBwithSwiftTests.swift */,
+			);
+			path = GettingStartedFMDBwithSwiftTests;
+			sourceTree = "<group>";
+		};
+		C0E05108293788700004FBC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0E050D72937853E0004FBC8 /* GettingStartedFMDBwithSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0E050FC293785400004FBC8 /* Build configuration list for PBXNativeTarget "GettingStartedFMDBwithSwift" */;
+			buildPhases = (
+				C0E050D42937853E0004FBC8 /* Sources */,
+				C0E050D52937853E0004FBC8 /* Frameworks */,
+				C0E050D62937853E0004FBC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GettingStartedFMDBwithSwift;
+			packageProductDependencies = (
+				C0E05106293787540004FBC8 /* FMDB */,
+			);
+			productName = GettingStartedFMDBwithSwift;
+			productReference = C0E050D82937853E0004FBC8 /* GettingStartedFMDBwithSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0E050E7293785400004FBC8 /* GettingStartedFMDBwithSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0E050FF293785400004FBC8 /* Build configuration list for PBXNativeTarget "GettingStartedFMDBwithSwiftTests" */;
+			buildPhases = (
+				C0E050E4293785400004FBC8 /* Sources */,
+				C0E050E5293785400004FBC8 /* Frameworks */,
+				C0E050E6293785400004FBC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0E050EA293785400004FBC8 /* PBXTargetDependency */,
+			);
+			name = GettingStartedFMDBwithSwiftTests;
+			packageProductDependencies = (
+				C03D823C293B33E300E7E8C3 /* FMDB */,
+			);
+			productName = GettingStartedFMDBwithSwiftTests;
+			productReference = C0E050E8293785400004FBC8 /* GettingStartedFMDBwithSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0E050D02937853E0004FBC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					C0E050D72937853E0004FBC8 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					C0E050E7293785400004FBC8 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = C0E050D72937853E0004FBC8;
+					};
+				};
+			};
+			buildConfigurationList = C0E050D32937853E0004FBC8 /* Build configuration list for PBXProject "GettingStartedFMDBwithSwift" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0E050CF2937853E0004FBC8;
+			packageReferences = (
+				C0E05105293787540004FBC8 /* XCRemoteSwiftPackageReference "fmdb" */,
+			);
+			productRefGroup = C0E050D92937853E0004FBC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0E050D72937853E0004FBC8 /* GettingStartedFMDBwithSwift */,
+				C0E050E7293785400004FBC8 /* GettingStartedFMDBwithSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0E050D62937853E0004FBC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0E050E6293785400004FBC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0E050D42937853E0004FBC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0E050DC2937853E0004FBC8 /* GettingStartedFMDBwithSwiftApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0E050E4293785400004FBC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0E050ED293785400004FBC8 /* GettingStartedFMDBwithSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0E050EA293785400004FBC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0E050D72937853E0004FBC8 /* GettingStartedFMDBwithSwift */;
+			targetProxy = C0E050E9293785400004FBC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C0E050FA293785400004FBC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0E050FB293785400004FBC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0E050FD293785400004FBC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3VP86DSRS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = top.indiespark.example.GettingStartedFMDBwithSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0E050FE293785400004FBC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3VP86DSRS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = top.indiespark.example.GettingStartedFMDBwithSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C0E05100293785400004FBC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3VP86DSRS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = top.indiespark.example.GettingStartedFMDBwithSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GettingStartedFMDBwithSwift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GettingStartedFMDBwithSwift";
+			};
+			name = Debug;
+		};
+		C0E05101293785400004FBC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3VP86DSRS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = top.indiespark.example.GettingStartedFMDBwithSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GettingStartedFMDBwithSwift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GettingStartedFMDBwithSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0E050D32937853E0004FBC8 /* Build configuration list for PBXProject "GettingStartedFMDBwithSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0E050FA293785400004FBC8 /* Debug */,
+				C0E050FB293785400004FBC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0E050FC293785400004FBC8 /* Build configuration list for PBXNativeTarget "GettingStartedFMDBwithSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0E050FD293785400004FBC8 /* Debug */,
+				C0E050FE293785400004FBC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0E050FF293785400004FBC8 /* Build configuration list for PBXNativeTarget "GettingStartedFMDBwithSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0E05100293785400004FBC8 /* Debug */,
+				C0E05101293785400004FBC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C0E05105293787540004FBC8 /* XCRemoteSwiftPackageReference "fmdb" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ccgus/fmdb";
+			requirement = {
+				kind = exactVersion;
+				version = 2.7.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C03D823C293B33E300E7E8C3 /* FMDB */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0E05105293787540004FBC8 /* XCRemoteSwiftPackageReference "fmdb" */;
+			productName = FMDB;
+		};
+		C0E05106293787540004FBC8 /* FMDB */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0E05105293787540004FBC8 /* XCRemoteSwiftPackageReference "fmdb" */;
+			productName = FMDB;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C0E050D02937853E0004FBC8 /* Project object */;
+}
